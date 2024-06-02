@@ -63,7 +63,7 @@
     display: inline-flex;
     width: 100%;
     height: 480px;
-    position: relative;
+    
 }
 .des_tour_item_container
 {
@@ -71,8 +71,9 @@
     background-color: #fff;
     border-radius: 20px;
     border: 2px solid #6d87d6;
-    position: absolute;
+    
     transition: ease .7s;
+    margin: 8px 8px;
 }
 .tour_item_img
 {
@@ -103,6 +104,7 @@
     font-size: 24px;
     color: #141525;
     font-weight: 700;
+    
 }
 .tour-item-titile:hover{
     text-decoration: underline;
@@ -157,6 +159,7 @@
     display: inline-flex;
     justify-content: space-between;
     margin-top: 16px;
+    box-sizing: content-box;
 }
 .tour_item_price_title{
     display: inline-flex;
@@ -185,4 +188,67 @@
 }
 .tour_item_compare input[type="checkbox"]:checked {
     background-color: #030a30; 
+}
+/* Tao phan Overview */
+.des_container_overview
+{
+    width: 70%;
+    display: block;
+    unicode-bidi: isolate;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.col-xs-12
+{
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.desc{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0;
+}
+.desc > h2{
+    color: #848484;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 650px;
+    margin: auto;
+    padding: 15px 0;
+}
+ .desc > p
+{
+    max-width: 650px;
+    margin: auto;
+    padding: 15px 0;
+}
+.desc > h5,h6
+{
+    max-width: 650px;
+    margin: auto;
+    padding: 15px 0;
+}
+.desc > h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #9e0b0f !important;
+}
+.desc .titile{
+    font-size: 24px;
+    line-height: 24px;
+    color: #a5190e !important;
 }
